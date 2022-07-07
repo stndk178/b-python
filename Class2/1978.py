@@ -1,16 +1,19 @@
 N = int(input())
 
 count = 0
+flag = 1
 lst = list(map(int, input().split()))
 
 for i in lst:
-    for k in range(1,1000):
+    flag = 1
+    if(i==1):
+        continue
+    else:
+        for k in range(2,i):
+            if(i%k==0):
+                flag = 0
 
-
-        if(i%k==0):
-            continue
-        else:
-            count += 1
-            break
+        if(flag==1):
+            count +=1
 
 print(count)
