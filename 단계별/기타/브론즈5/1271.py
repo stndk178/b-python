@@ -9,4 +9,4 @@ print(n%m)
 n,m = map(int, input().split())
 print(n//m) #나눗셈인데 소수점 이하는 버리고 정수 부분만
 print(n%m)
-#파이썬은 큰 수를 자동으로 처리 가능능
+#파이썬은 큰 수를 자동으로 처리 가능
