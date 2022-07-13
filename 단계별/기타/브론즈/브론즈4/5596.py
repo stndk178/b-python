@@ -1,0 +1,5 @@
+lst1 = list(map(int, input().split()))
+lst2 = list(map(int, input().split()))
+s1 = sum(lst1)
+s2 = sum(lst2)
+print(max(s1,s2))
