@@ -6,7 +6,7 @@ for i in range(n):
     lst = list(map(int,input().split()))
     res.append(lst)
 res.sort(key=lambda x:x[0]) #첫번째 원소(시작시간) 정렬
-res.sort(key=lambda x:x[1]) #두번째 원소(종룔시간) 정렬
+res.sort(key=lambda x:x[1]) #두번째 원소(종료시간) 정렬
 
 
 k = res[0][1] #가장 처음 원소의 종료시간을 선택
